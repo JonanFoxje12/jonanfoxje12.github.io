@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>JonanFoxje12's site</title>
+        <meta charset="utf-8">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Anton+SC">
+        <link rel="icon" href="favicon.png">
+        <style>
+            .icon {
+                border: 2px solid black;
+                border-radius: 10px;
+                width: 150px;
+                height: 150px;
+                cursor: pointer;
+            }
+
+            div {
+                display: inline-block;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>JonanFoxje12's site</h1>
+        <h2>My creations</h2>
+        <h4>Try rightclicking!</h4>
+        
+        <div id="NRSDiv">
+            <!-- https://jonanfoxje12.github.io/Nuclear-Reactor-Simulator/ -->
+            <img src="https://jonanfoxje12.github.io/Nuclear-Reactor-Simulator/-NuclearPowerPlant.png" alt="NuclearPowerPlant.png" class="icon" id="NRSImg"><br>
+            <label for="NRSImg">Nuclear Reactor Simulator</label>
+        </div>
+
+        <div id="ScientificNotationDIV">
+            <!-- https://jonanfoxje12.github.io/Scientific-Notation -->
+            <img src="https://jonanfoxje12.github.io/Scientific-Notation/ScientificNotationIcon.png" alt="ScientificNotationIcon" class="icon" id="ScientifNotationImg"><br>
+            <label for="ScientifNotationImg">Scientific Notation</label>
+        </div>
+
+        <div id="ENNDIV">
+            <!-- https://jonanfoxje12.github.io/English-number-notation -->
+            <img src="https://jonanfoxje12.github.io/English-number-notation/ENNIcon.png" alt="EnglishNumberNotationIcon" class="icon" id="ENNImg"><br>
+            <label for="ENNImg">English Numnber Notation</label>
+        </div>
+        <script>
+            const NRSDiv = document.getElementById("NRSDiv");
+            const ScientificNotationDIV = document.getElementById("ScientificNotationDIV");
+            const ENNDIV = document.getElementById("ENNDIV");
+
+            NRSDiv.addEventListener("click", () => {
+                window.open("https://jonanfoxje12.github.io/Nuclear-Reactor-Simulator/");
+            })
+
+            NRSDiv.addEventListener("contextmenu", () => {
+                window.open("https://github.com/JonanFoxje12/Nuclear-Reactor-Simulator");
+            })
+
+            ScientificNotationDIV.addEventListener("click", () => {
+                window.open("https://jonanfoxje12.github.io/Scientific-Notation/");
+            })
+
+            ScientificNotationDIV.addEventListener("contextmenu", () => {
+                window.open("https://github.com/JonanFoxje12/Scientific-Notation");
+            })
+
+            ENNDIV.addEventListener("click", () => {
+                window.open("https://jonanfoxje12.github.io/English-number-notation/");
+            })
+
+            ENNDIV.addEventListener("contextmenu", () => {
+                window.open("https://github.com/JonanFoxje12/English-number-notation");
+            })
+        </script>
+    </body>
+</html>
