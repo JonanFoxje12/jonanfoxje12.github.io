@@ -1,2 +1,2 @@
 # jonanfoxje12.github.io
-My site
+This is my site. You can find an overview of some of my repositories here.
